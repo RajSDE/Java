@@ -10,8 +10,9 @@ There are two ways to create a string in Java:
 String s = “I am a Great Person”;
 
 String s1="Welcome";  
-String s2="Welcome";//It doesn't create a new instance  
+String s2="Welcome";    //It doesn't create a new instance  
 ```
+
 - Using new keyword:  JVM will create a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool. The variable s will refer to the object in a heap (non-pool).
 
 ```
