@@ -1,7 +1,7 @@
 ## Java Strings
-Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable(cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
+**Strings** in Java are Objects that are backed internally by a char array. Since arrays are **immutable**(cannot grow), Strings are immutable as well. Whenever a change to a String is made, an entirely new String is created.
 
-Creating a String
+**Creating a String**
 
 There are two ways to create a string in Java: 
 - String literal
@@ -14,7 +14,7 @@ String s = new String (“I am a Great Person”);
 ```
 
 ## StringBuilder: 
-The StringBuilder in Java represents a mutable sequence of characters. Since the String Class in Java creates an immutable sequence of characters, the StringBuilder class provides an alternate to String Class, as it creates a mutable sequence of characters.
+The **StringBuilder** in Java represents a **mutable** sequence of characters. Since the String Class in Java creates an immutable sequence of characters, the StringBuilder class provides an alternate to String Class, as it creates a mutable sequence of characters.
 Syntax:
 ```
 StringBuilder str = new StringBuilder();
@@ -22,7 +22,7 @@ str.append("GFG");
 ```
 
 
-The String class has a set of built-in methods that you can use on strings.
+**The String class has a set of built-in methods that you can use on strings.**
 ### charAt() 
 Returns the character at the specified index (position)
 ```
