@@ -1,5 +1,5 @@
 ## Java Strings
-###### charAt() 
+##### charAt() 
 Returns the character at the specified index (position)
 ```
 String myStr = "Hello";
