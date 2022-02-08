@@ -7,7 +7,7 @@ char result = myStr.charAt(0);
 System.out.println(result);
 ```
 
-###### length()
+### length()
 Returns the length of a specified string
 ```
 String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -16,7 +16,7 @@ System.out.println(txt.length());
 
 
 
-###### compareTo()
+### compareTo()
 Compares two strings lexicographically
 ```
 String myStr1 = "Hello";
@@ -24,7 +24,7 @@ String myStr2 = "Hello";
 System.out.println(myStr1.compareTo(myStr2));
 ```
 
-###### contains()
+### contains()
 Checks whether a string contains a sequence of characters
 ```
 String myStr = "Hello";
@@ -33,7 +33,7 @@ System.out.println(myStr.contains("e"));     // true
 System.out.println(myStr.contains("Hi"));    // false
 ```
 
-###### contentEquals()
+### contentEquals()
 Checks whether a string contains the exact same sequence of characters of the specified CharSequence or StringBuffer
 ```
 String myStr = "Hello";
@@ -42,7 +42,7 @@ System.out.println(myStr.contentEquals("e"));      // false
 System.out.println(myStr.contentEquals("Hi"));     // false
 ```
 
-###### copyValueOf()
+### copyValueOf()
 Returns a String that represents the characters of the character array
 ```
 char[] myStr1 = {'H', 'e', 'l', 'l', 'o'};
@@ -51,7 +51,7 @@ myStr2 = myStr2.copyValueOf(myStr1, 0, 5);
 System.out.println("Returned String: " + myStr2);
 ```
 
-###### endsWith()
+### endsWith()
 Checks whether a string ends with the specified character(s)
 ```
 String myStr = "Hello";
@@ -60,7 +60,7 @@ System.out.println(myStr.endsWith("llo"));   // true
 System.out.println(myStr.endsWith("o"));     // true
 ```
 
-###### equals()
+### equals()
 Compares two strings. Returns true if the strings are equal, and false if not
 ```
 String myStr1 = "Hello";
@@ -70,14 +70,14 @@ System.out.println(myStr1.equals(myStr2)); // Returns true because they are equa
 System.out.println(myStr1.equals(myStr3)); // false
 ```
 
-###### indexOf()
+### indexOf()
 Returns the position of the first found occurrence of specified characters in a string
 ```
 String myStr = "Hello planet earth, you are a great planet.";
 System.out.println(myStr.indexOf("planet"));
 ```
 
-###### lastIndexOf() 
+### lastIndexOf() 
 Returns the position of the last found occurrence of specified characters in a string
 ```
 String myStr = "Hello planet earth, you are a great planet.";
@@ -85,7 +85,7 @@ System.out.println(myStr.lastIndexOf("planet"));
 ```
 
 
-###### isEmpty() 
+### isEmpty() 
 Checks whether a string is empty or not
 ```
 String myStr1 = "Hello";
@@ -93,14 +93,14 @@ String myStr2 = "";
 System.out.println(myStr1.isEmpty());
 System.out.println(myStr2.isEmpty());
 ```
-###### replace() 
+### replace() 
 Searches a string for a specified value, and returns a new string where the specified values are replaced
 ```
 String myStr = "Hello";
 System.out.println(myStr.replace('l', 'p'));
 ```
 
-###### startsWith() 
+### startsWith() 
 Checks whether a string starts with specified characters
 ```
 String myStr = "Hello";
@@ -109,7 +109,7 @@ System.out.println(myStr.startsWith("llo"));   // false
 System.out.println(myStr.startsWith("o"));     // false
 ```
 
-###### toLowerCase() 
+### toLowerCase() 
 Converts a string to lower case letters
 ```
 String txt = "Hello World";
@@ -117,7 +117,7 @@ System.out.println(txt.toUpperCase());
 System.out.println(txt.toLowerCase());
 ```
 
-###### toUpperCase() 
+### toUpperCase() 
 Converts a string to upper case letters
 ```
 String txt = "Hello World";
@@ -125,7 +125,7 @@ System.out.println(txt.toUpperCase());
 System.out.println(txt.toLowerCase());
 ```
 
-###### trim() 
+### trim() 
 Removes whitespace from both ends of a string
 ```
 String myStr = "       Hello World!       ";
@@ -133,7 +133,7 @@ System.out.println(myStr);
 System.out.println(myStr.trim());
 ```
 
-###### valueOf() 
+### valueOf() 
 Returns the string representation of the specified value
 ```
 int value=30;  
@@ -143,7 +143,7 @@ System.out.println(s1+10);//concatenating string with 10
 
 
 
-###### toString() 
+### toString() 
 Returns the value of a String object
 ```
 public static void main(String args[]) {
@@ -156,7 +156,7 @@ public static void main(String args[]) {
 
 
 
-###### toCharArray() 
+### toCharArray() 
 Converts this string to a new character array
 ```
 String s1="hello";  
@@ -168,7 +168,7 @@ for(int i=0;i<ch.length;i++){
 
 
 
-###### substring() 
+### substring() 
 Returns a new string which is the substring of a specified string
 ```
 String s1="RajSingh";  
@@ -178,7 +178,7 @@ String s1="RajSingh";
 
 
 
-###### subSequence() 
+### subSequence() 
 Returns a new character sequence that is a subsequence of this sequence
 ```
 String Str = "Welcome to my world";
@@ -193,7 +193,7 @@ String Str = "Welcome to my world";
 
 
 
-###### split() 
+### split() 
 Splits a string into an array of substrings
 ```
 String s1="java string split method";  
@@ -205,7 +205,7 @@ String[] words=s1.split("\\s");//splits the string based on whitespace.
 
 
 
-###### replaceAll() 
+### replaceAll() 
 Replaces each substring of this string that matches the given regular expression with the given replacement
 ```
 String s1="This is a very good website";  
@@ -215,7 +215,7 @@ String s1="This is a very good website";
 
 
 
-###### replaceFirst() 
+### replaceFirst() 
 Replaces the first occurrence of a substring that matches the given regular expression with the given replacement
 ```
  String str = "This website providing free tutorials";
