@@ -21,6 +21,7 @@ StringBuilder str = new StringBuilder();
 str.append("GFG");
 ```
 
+<hr>
 
 **The String class has a set of built-in methods that you can use on strings.**
 ### charAt() 
