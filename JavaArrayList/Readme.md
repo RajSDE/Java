@@ -77,7 +77,7 @@ ArrayList<String> cars = new ArrayList<String>();
     cars.add("Mazda");
     System.out.println(cars);
 ```
-#### `add(int index, E element)`
+### `add(int index, E element)`
 It is used to insert the specified element at the specified position in a list.
 ```
 
@@ -89,7 +89,7 @@ colors.add(0, "black");     // ["black", "red" , "white", "blue"]
 System.out.println(colors); // ["black", "red" , "white", "blue"]  
 ```
 
-#### `addAll(Collection c)`
+### `addAll(Collection c)`
 
 It is used to append all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator.
 ```
