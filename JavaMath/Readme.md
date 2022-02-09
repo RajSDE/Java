@@ -39,3 +39,173 @@ The Java Math class has many methods that allows you to perform mathematical tas
 |`toDegrees(x)`	|   `Converts an angle measured in radians to an approx. equivalent angle measured in degrees`	|   double
 |`toRadians(x)`	|   `Converts an angle measured in degrees to an approx. angle measured in radians`	|   double
 |`ulp(x)`	|   `Returns the size of the unit of least precision (ulp) of x`	|   double / float
+
+**Note:** All Math methods are `static`.
+
+**Math Class methods helps to perform the numeric operations like square, square root, cube, cube root, exponential and trigonometric operations**
+- **What is NaN argument?**
+A constant holding a Not-a-Number (NaN) value of type double. It is equivalent to the value returned by Double.longBitsToDouble(0x7ff8000000000000L).
+
+<hr>
+
+### `abs(), acos(), toRadians()`
+```
+ // Declaring the variables
+        int Vali = -1;
+        float Valf = .5f;
+ 
+        // Printing the values
+        System.out.println("Initial value of int  : "+Vali);
+        System.out.println("Initial value of int  : "+Valf);
+ 
+ 
+        // Use of .abs() method to get the absoluteValue
+        int Absi = Math.abs(Vali);
+        float Absf = Math.abs(Valf);
+ 
+        System.out.println("Absolute value of int : "+Absi);
+        System.out.println("Absolute value of int : "+Absf);
+        System.out.println("");
+ 
+        // Use of acos() method
+        // Value greater than 1, so passing NaN
+        double Acosi = Math.acos(60);
+        System.out.println("acos value of Acosi : "+Acosi);
+        double x = Math.PI;
+ 
+        // Use of toRadian() method
+        x = Math.toRadians(x);
+        double Acosj = Math.acos(x);
+        System.out.println("acos value of Acosj : "+Acosj);
+```
+
+**Output:**
+```
+Initial value of int  : -1
+Initial value of int  : 0.5
+Absolute value of int : 1
+Absolute value of int : 0.5
+
+acos value of Acosi : NaN
+acos value of Acosj : 1.5159376794536454
+```
+
+<hr>
+
+### `asin(), cbrt()`
+```
+    int a = 1, b = 8;
+    int radd = a+b;
+ 
+        // Use of asin() method
+        // Value greater than 1, so passing NaN
+        double Asini = Math.asin(radd);
+        System.out.println("asin value of Asini : " + Asini);
+        double x = Math.PI;
+ 
+        // Use of toRadian() method
+        x = Math.toRadians(x);
+        double Asinj = Math.asin(x);
+        System.out.println("asin value of Asinj : " + Asinj);
+        System.out.println("");
+ 
+        // Use of cbrt() method
+        double cbrtval = Math.cbrt(216);
+        System.out.println("cube root : " + cbrtval);
+```
+**Output:**
+```
+asin value of Asini : NaN
+asin value of Asinj : 0.054858647341251204
+
+cube root : 6.0
+```
+<hr>
+
+### `floor(), hypot(), IEEEremainder(), log()`
+
+```
+// Use of floor method
+    double f1 = 30.56, f2 = -56.34;
+    f1 =Math.floor(f1);
+        System.out.println("Floor value of f1 : "+f1);
+ 
+    f2 =Math.floor(f2);
+        System.out.println("Floor value of f2 : "+f2);
+        System.out.println("");
+ 
+    // Use of hypot() method
+    double p = 12, b = -5;
+    double h = Math.hypot(p, b);
+        System.out.println("Hypotenuse : "+h);
+        System.out.println("");
+ 
+    // Use of IEEEremainder() method
+    double d1 = 105, d2 = 2;
+    double r = Math.IEEEremainder(d1,d2);
+        System.out.println("Remainder : "+r);
+        System.out.println("");
+         
+    // Use of log() method
+    double l = 10;
+    l = Math.log(l);
+        System.out.println("Log value of 10 : "+l);
+```
+
+**Output:**
+```
+Floor value of f1 : 30.0
+Floor value of f2 : -57.0
+
+Hypotenuse : 13.0
+
+Remainder : 1.0
+
+Log value of 10 : 2.302585092994046
+```
+<hr>
+
+### `atan(), ceil(), copySign() `
+
+```
+    // Use of atan() method
+    double Atani = Math.atan(0);
+        System.out.println("atan value of Atani : "+Atani);
+    double x = Math.PI/2;
+ 
+    // Use of toRadian() method
+    x = Math.toRadians(x);
+    double Atanj = Math.atan(x);
+        System.out.println("atan value of Atanj : "+Atanj);
+        System.out.println("");
+ 
+ 
+    // Use of ceil() method
+    double val = 15.34 ,ceilval;
+    ceilval = Math.ceil(val);
+        System.out.println("ceil value of val : "+ceilval);
+        System.out.println("");
+ 
+    double dblMag = val;
+    double dblSign1 = 3;
+    double dblSign2 = -3;
+ 
+ 
+    // Use of copySign() method
+    double result1 = Math.copySign(dblMag,dblSign1);
+        System.out.println("copySign1 : "+result1);
+ 
+    double result2 = Math.copySign(dblMag,dblSign2);
+        System.out.println("copySign2 : "+result2);
+```
+
+**Output:**
+```
+atan value of Atani : 0.0
+atan value of Atanj : 0.0274087022410345
+
+ceil value of val : 16.0
+
+copySign1 : 15.34
+copySign2 : -15.34
+```
