@@ -228,7 +228,8 @@ String Str = "Welcome to my world";
 Splits a string into an array of substrings
 ```
 String s1="java string split method";  
-String[] words=s1.split("\\s");//splits the string based on whitespace.
+String[] words=s1.split("\\s");     //splits the string based on whitespace.
+
     //using java foreach loop to print elements of string array  
     for(String w:words){  
         System.out.println(w);  
@@ -250,6 +251,7 @@ String s1="This is a very good website";
 Replaces the first occurrence of a substring that matches the given regular expression with the given replacement
 ```
  String str = "This website providing free tutorials";
+ 
     //Only Replace first 's' with '9' 
     String str1 = str.replaceFirst("s", "9");
     System.out.println(str1);
@@ -262,13 +264,13 @@ Searches a string for a match against a regular expression, and returns the matc
 String Str = new String("Welcome to Tutorialspoint.com");
 
       System.out.print("Return Value :" );
-      System.out.println(Str.matches("(.*)Tutorials(.*)"));     //True
+      System.out.println(Str.matches("(.*)Tutorials(.*)"));       //True
 
       System.out.print("Return Value :" );
-      System.out.println(Str.matches("Tutorials"));     //False
+      System.out.println(Str.matches("Tutorials"));               //False
 
       System.out.print("Return Value :" );
-      System.out.println(Str.matches("Welcome(.*)"));       //True
+      System.out.println(Str.matches("Welcome(.*)"));             //True
 ```
 
 
