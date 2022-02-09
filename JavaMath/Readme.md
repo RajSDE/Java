@@ -3,7 +3,7 @@ The Java Math class has many methods that allows you to perform mathematical tas
 
 | Method    | Descriptions     | Return Type        |
 | :-------- | :------- | :------------------------- |
-|`abs(x)`	|   `Returns the absolute value of x`	| double/float/int/long
+|`abs(x)`	|   `Returns the absolute value of x`	| double / float / int / long
 |`acos(x)`	|   `Returns the arccosine of x, in radians`	|   double
 |`asin(x)`	|   `Returns the arcsine of x, in radians`	|   double
 |`atan(x)`	|   `Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians`	|   double
