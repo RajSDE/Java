@@ -30,7 +30,8 @@ import java.util.ArrayList;   // import the ArrayList class
     ArrayList<Character> list3 = new ArrayList<Character>();
     ArrayList<Boolean> list3 = new ArrayList<Boolean>();
 ```
-
+<hr>
+## ArrayList Methods
 | Methods   | Description|
 | :---------| :----------|
 | `add(int index, Object element)`  |	This method is used to insert a specific element at a specific position index in a list.    |
@@ -62,7 +63,7 @@ import java.util.ArrayList;   // import the ArrayList class
 | `toArray(Object[] O)` |	It is also used to return an array containing all of the elements in this list in the correct order same as the previous method.    |
 | `trimToSize()`    |	This method is used to trim the capacity of the instance of the ArrayList to the list’s current size.   |
 
-
+<hr>
 
 
 ### `add()`
