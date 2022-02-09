@@ -183,3 +183,56 @@ ddd
 dddd
 ddddd
 ```
+
+### `lastIndexOf() `
+It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.
+```
+ArrayList<Integer> arr = new ArrayList<Integer>(7);
+  
+        // using add() to initialize values
+        arr.add(10);
+        arr.add(20);
+        arr.add(30);
+        arr.add(40);
+        arr.add(30);
+        arr.add(30);
+        arr.add(40);
+        int element = arr.lastIndexOf(30);
+        if (element != -1)
+            System.out.println("the lastIndexof of + " 30 is " + element);
+        else
+            System.out.println("30 is not in" + " the list;
+
+        // the lastIndexof of 30 is 5
+```
+
+### `Object[] toArray()`
+It is used to return an array containing all of the elements in this list in the correct order.
+```
+List<Integer> al = new ArrayList<Integer>();
+    al.add(10);
+    al.add(20);
+    al.add(30);
+    al.add(40);
+  
+Object[] objects = al.toArray();
+  
+    // Printing array of objects
+    for (Object obj : objects)
+        System.out.print(obj + " ");
+```
+**Note:** toArray() method returns an array of type Object(Object[]). We need to typecast it to Integer before using as Integer objects. 
+```
+List<Integer> al = new ArrayList<Integer>();
+    al.add(10);
+    al.add(20);
+    al.add(30);
+    al.add(40);
+  
+    // Error: incompatible types: Object[]
+    // cannot be converted to Integer[]
+    Integer[] objects = al.toArray();
+  
+    for (Integer obj : objects)
+        System.out.println(obj);
+```
