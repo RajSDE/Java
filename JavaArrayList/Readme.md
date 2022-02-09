@@ -32,7 +32,7 @@ import java.util.ArrayList;   // import the ArrayList class
 ```
 
 ### `add()`
-Add Items
+It is used to append the specified element at the end of a list.
 ```
 ArrayList<String> cars = new ArrayList<String>();
     cars.add("Volvo");
@@ -42,7 +42,9 @@ ArrayList<String> cars = new ArrayList<String>();
     System.out.println(cars);
 ```
 #### `add(int index, E element)`
+It is used to insert the specified element at the specified position in a list.
 ```
+
 List<String> colors = new ArrayList<>();  
 colors.add("red");          // ["red"]  
 colors.add("blue");         // ["red" , "blue"]  
@@ -52,7 +54,12 @@ System.out.println(colors); // ["black", "red" , "white", "blue"]
 ```
 
 #### `addAll(Collection c)`
+
+It is used to append all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator.
 ```
+//  boolean addAll(Collection<? extends E> c)
+//  boolean addAll(int index, Collection<? extends E> c)
+
 ArrayList<String> letters = new ArrayList<>();  
 letters.add("A");  
 letters.add("B");  
@@ -101,7 +108,7 @@ cars.size();
 ### `sort()`
 
 - Sort an ArrayList in `Ascending Order`
-Another useful class in the java.util package is the Collections class, which include the sort() method for sorting lists alphabetically or numerically:
+Another useful class in the java.util package is the `Collections class`, which include the sort() method for sorting lists alphabetically or numerically:
 ```
 ArrayList<String> cars = new ArrayList<String>();
     cars.add("Volvo");
@@ -116,4 +123,63 @@ ArrayList<String> cars = new ArrayList<String>();
 - Sort an ArrayList in `Descending Order`
 ```
 Collections.sort(ArrayList, Collections.reverseOrder());
+```
+
+### `isEmpty()`
+It returns true if the list is empty, otherwise false.
+```
+    // creating an Empty Integer ArrayList
+    ArrayList<Integer> arr = new ArrayList<Integer>(10);
+  
+    // check if the list is empty or not using function
+    boolean ans = arr.isEmpty();
+
+        if (ans == true)
+            System.out.println("The ArrayList is empty");
+        else
+            System.out.println("The ArrayList is not empty");
+```
+
+### `Iterator()`
+The ArrayList.Iterator () returns an iterator over the elements in this list.
+```
+ArrayList<String>arrlist = new ArrayList<String>();  
+arrlist.add("d");  
+arrlist.add("dd");  
+arrlist.add("ddd");  
+arrlist.add("dddd");  
+arrlist.add("ddddd");  
+System.out.println(arrlist);    // [d, dd, ddd, dddd, ddddd]  
+  
+Iterator<String> iterator = arrlist.iterator();  
+while (iterator.hasNext())  
+{  
+String i = iterator.next();  
+System.out.println(i);  
+```
+
+### `listIterator()`
+The listIterator () method of Java ArrayList returns a list iterator over the elements in this list starting at the specified position in this list.
+```
+ArrayList<String> arrlist = new ArrayList<String>();  
+arrlist.add("d");  
+arrlist.add("dd");  
+arrlist.add("ddd");  
+arrlist.add("dddd");  
+arrlist.add("ddddd");  
+    System.out.println(arrlist);    // [d, dd, ddd, dddd, ddddd]  
+  
+ListIterator<String> iterator = arrlist.listIterator(2);  
+while (iterator.hasNext())  
+    {  
+    String i = iterator.next();  
+    System.out.println(i);
+    }  
+```
+Output:
+```
+[d, dd, ddd, dddd, ddddd]
+ddd
+dddd
+ddddd
 ```
