@@ -50,32 +50,32 @@ A constant holding a Not-a-Number (NaN) value of type double. It is equivalent t
 
 ### `abs(), acos(), toRadians()`
 ```
- // Declaring the variables
-        int Vali = -1;
-        float Valf = .5f;
+    // Declaring the variables
+    int Vali = -1;
+    float Valf = .5f;
  
-        // Printing the values
+    // Printing the values
         System.out.println("Initial value of int  : "+Vali);
         System.out.println("Initial value of int  : "+Valf);
  
  
-        // Use of .abs() method to get the absoluteValue
-        int Absi = Math.abs(Vali);
-        float Absf = Math.abs(Valf);
+    // Use of .abs() method to get the absoluteValue
+    int Absi = Math.abs(Vali);
+    float Absf = Math.abs(Valf);
  
         System.out.println("Absolute value of int : "+Absi);
         System.out.println("Absolute value of int : "+Absf);
         System.out.println("");
  
-        // Use of acos() method
-        // Value greater than 1, so passing NaN
-        double Acosi = Math.acos(60);
+    // Use of acos() method
+    // Value greater than 1, so passing NaN
+    double Acosi = Math.acos(60);
         System.out.println("acos value of Acosi : "+Acosi);
-        double x = Math.PI;
+    double x = Math.PI;
  
-        // Use of toRadian() method
-        x = Math.toRadians(x);
-        double Acosj = Math.acos(x);
+    // Use of toRadian() method
+    x = Math.toRadians(x);
+    double Acosj = Math.acos(x);
         System.out.println("acos value of Acosj : "+Acosj);
 ```
 
@@ -97,20 +97,20 @@ acos value of Acosj : 1.5159376794536454
     int a = 1, b = 8;
     int radd = a+b;
  
-        // Use of asin() method
-        // Value greater than 1, so passing NaN
-        double Asini = Math.asin(radd);
+    // Use of asin() method
+    // Value greater than 1, so passing NaN
+    double Asini = Math.asin(radd);
         System.out.println("asin value of Asini : " + Asini);
-        double x = Math.PI;
+    double x = Math.PI;
  
-        // Use of toRadian() method
-        x = Math.toRadians(x);
-        double Asinj = Math.asin(x);
+    // Use of toRadian() method
+    x = Math.toRadians(x);
+    double Asinj = Math.asin(x);
         System.out.println("asin value of Asinj : " + Asinj);
         System.out.println("");
  
-        // Use of cbrt() method
-        double cbrtval = Math.cbrt(216);
+    // Use of cbrt() method
+    double cbrtval = Math.cbrt(216);
         System.out.println("cube root : " + cbrtval);
 ```
 **Output:**
@@ -125,7 +125,7 @@ cube root : 6.0
 ### `floor(), hypot(), IEEEremainder(), log()`
 
 ```
-// Use of floor method
+    // Use of floor method
     double f1 = 30.56, f2 = -56.34;
     f1 =Math.floor(f1);
         System.out.println("Floor value of f1 : "+f1);
