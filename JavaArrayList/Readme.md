@@ -30,7 +30,6 @@ import java.util.ArrayList;   // import the ArrayList class
     ArrayList<Character> list3 = new ArrayList<Character>();
     ArrayList<Boolean> list3 = new ArrayList<Boolean>();
 ```
-<hr>
 
 ## ArrayList Methods
 
