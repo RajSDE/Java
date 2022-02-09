@@ -31,7 +31,9 @@ import java.util.ArrayList;   // import the ArrayList class
     ArrayList<Boolean> list3 = new ArrayList<Boolean>();
 ```
 <hr>
+
 ## ArrayList Methods
+
 | Methods   | Description|
 | :---------| :----------|
 | `add(int index, Object element)`  |	This method is used to insert a specific element at a specific position index in a list.    |
