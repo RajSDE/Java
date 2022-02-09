@@ -255,5 +255,21 @@ Replaces the first occurrence of a substring that matches the given regular expr
     System.out.println(str1);
 ```
 
+### matches()
+Searches a string for a match against a regular expression, and returns the matches
+
+```
+String Str = new String("Welcome to Tutorialspoint.com");
+
+      System.out.print("Return Value :" );
+      System.out.println(Str.matches("(.*)Tutorials(.*)"));     //True
+
+      System.out.print("Return Value :" );
+      System.out.println(Str.matches("Tutorials"));     //False
+
+      System.out.print("Return Value :" );
+      System.out.println(Str.matches("Welcome(.*)"));       //True
+```
+
 
 
