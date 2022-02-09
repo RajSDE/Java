@@ -14,7 +14,7 @@ The Java Math class has many methods that allows you to perform mathematical tas
 |`cos(x)`	|   `Returns the cosine of x (x is in radians)`	|   double
 |`cosh(x)`	|   `Returns the hyperbolic cosine of a double value`	|   double
 |`exp(x)`	|   `Returns the value of E.pow(x)`	|   double
-|`expm1(x)`	|   `Returns e.pow <sup>(x)</sup> -1`	|   double
+|`expm1(x)`	|   `Returns e.pow(x) -1`	|   double
 |`floor(x)`	|   `Returns the value of x rounded down to its nearest integer`	|   double
 |`getExponent(x)`	|   `Returns the unbiased exponent used in x`	|   int
 | `hypot(x, y)`	|   `Returns sqrt(x2 +y2) without intermediate overflow or underflow`	|   double
