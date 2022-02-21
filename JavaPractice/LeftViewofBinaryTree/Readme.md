@@ -21,7 +21,7 @@ class Node{
     }
 }
 
-class GfG {
+class LeftViewBtree {
     
     static Node buildTree(String str){
         
