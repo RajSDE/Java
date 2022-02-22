@@ -1,7 +1,7 @@
-# Complete Java & DSA Syllabus
+# <center>Complete Java & DSA Syllabus🎓</center>
 
   
-## Syallbus...
+## Syallbus📌
 
 - ### Functions
     - Scoping in Java
