@@ -1,4 +1,4 @@
-## Rotate Linked List
+## Express as sum of power of natural numbers
 Given two numbers n and x, find out the total number of ways n can be expressed as sum of xth power of unique natural numbers.As total number of ways can be very large ,so return the number of ways modulo 109 + 7.  [🔗Goto](https://practice.geeksforgeeks.org/problems/express-as-sum-of-power-of-natural-numbers5647/1/?problemStatus=unsolved&difficulty[]=1&page=1&category[]=Recursion&query=problemStatusunsolveddifficulty[]1page1category[]Recursion#) 
 
 <details>
