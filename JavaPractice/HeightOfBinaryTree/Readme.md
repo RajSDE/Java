@@ -1,4 +1,4 @@
-## Rotate Linked List
+## Height of Binary Tree
 Given a binary tree, find its height. [🔗Goto](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1/?page=2&difficulty[]=1&status[]=unsolved&company[]=Amazon&company[]=Infosys&sortBy=submissions#) 
 
 <details>
