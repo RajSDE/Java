@@ -22,7 +22,7 @@
         - Selection Sort
         - Bubble Sort
         - Cyclic Sort
-- ### Pattern questions
+- ### Pattern questions(Self Practice)
 - ### Strings
     - How Strings work
     - Comparison of methods
