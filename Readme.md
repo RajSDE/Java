@@ -1,4 +1,4 @@
-# <center>Complete Java & DSA Syllabus🎓</center>
+# <center> Complete Java & DSA Syllabus🎓 </center>
 
   
 ## Syallbus📌
