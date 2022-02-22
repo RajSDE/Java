@@ -1,5 +1,5 @@
-# <center> Complete Java & DSA Syllabus🎓 </center>
 
+## <p align="center"> Complete Java & DSA Syllabus🎓 </p>
   
 ## Syallbus📌
 
