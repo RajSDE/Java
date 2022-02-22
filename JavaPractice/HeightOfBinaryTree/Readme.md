@@ -22,7 +22,7 @@ class Node{
     }
 }
 
-class GFG {
+class HeightOfBinaryTree {
     
     static Node buildTree(String str){
         
