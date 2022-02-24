@@ -8,7 +8,7 @@ Remove the loop from the linked list, if it is present.    [🔗Goto](https://pr
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.*;
 import java.io.*;
 import java.lang.*;
@@ -103,7 +103,7 @@ class GFG
 ```
 </details>
 
-```
+```java
 class Solution
 {
     public static void removeLoop(Node head){

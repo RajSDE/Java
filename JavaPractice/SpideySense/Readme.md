@@ -9,7 +9,7 @@ You have to replace all of the Os (open spaces) in the matrix with their shortes
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.*;
 import java.math.*;
 
@@ -59,7 +59,7 @@ class Gfg
 ```
 </details>
 
-```
+```java
 class Solution
 {
     public static int[][] findDistance(char mat[][], int n,int m)

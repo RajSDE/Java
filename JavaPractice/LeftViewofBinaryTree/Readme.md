@@ -4,7 +4,7 @@ Given a Binary Tree, print Left view of it. Left view of a Binary Tree is set of
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.LinkedList; 
 import java.util.Queue; 
 import java.io.*;
@@ -111,7 +111,7 @@ class LeftViewBtree {
 ```
 </details>
 
-```
+```java
 class Tree
 {
     //Function to return list containing elements of left view of binary tree.

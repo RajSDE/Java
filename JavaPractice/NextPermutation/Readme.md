@@ -4,7 +4,7 @@ Implement the next permutation, which rearranges the list of numbers into Lexico
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.io.*;
 import java.util.*;
 
@@ -33,7 +33,7 @@ class NextPermutation{
 ```
 </details>
 
-```
+```java
 class Solution{
     static List<Integer> nextPermutation(int N, int arr[]){
         int i=N-2;

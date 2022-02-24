@@ -4,7 +4,7 @@ Given a binary tree, find its height. [🔗Goto](https://practice.geeksforgeeks.
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.LinkedList; 
 import java.util.Queue; 
 import java.io.*;
@@ -107,7 +107,7 @@ class HeightOfBinaryTree {
 ```
 </details>
 
-```
+```java
 class Solution {
     //Function to find the height of a binary tree.
     int height(Node node) 

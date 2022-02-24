@@ -4,7 +4,7 @@ Given two numbers n and x, find out the total number of ways n can be expressed 
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -28,7 +28,7 @@ class ExpressSumPower
 ```
 </details>
 
-```
+```java
 class Solution
 {
     static int MOD = (int)(1e9 + 7);

@@ -4,7 +4,7 @@ Given a singly linked list of size N. The task is to left-shift the linked list 
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.*;
 class Node {
     int data;
@@ -54,7 +54,7 @@ class Main {
 ```
 </details>
 
-```
+```java
 class Solution{
    public Node rotate(Node head, int k) {
        if(head == null) return null;

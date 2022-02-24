@@ -11,7 +11,7 @@ Example 1:
 <details>
 <summary>Full Code</summary>
 
-```
+```java
 import java.util.*;
 
 
@@ -123,7 +123,7 @@ public void addToTheLast(Node node)
 ```
 </details>
 
-```
+```java
 class Intersect
 {
 	int intersectPoint(Node head1, Node head2)
