@@ -1,7 +1,5 @@
 ## Detect cycle in a directed graph 
-Given a Directed Graph with V vertices (Numbered from 0 to V-1) and E edges, check whether it contains any cycle or not.
-
-[🔗Goto](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1/?page=1&difficulty[]=1&status[]=unsolved&company[]=Amazon&sortBy=submissions#) 
+Given a Directed Graph with V vertices (Numbered from 0 to V-1) and E edges, check whether it contains any cycle or not. [🔗Goto](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1/?page=1&difficulty[]=1&status[]=unsolved&company[]=Amazon&sortBy=submissions#) 
 
 <details>
 <summary>Full Code</summary>
