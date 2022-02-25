@@ -3,11 +3,10 @@ Given strings A, B, and C, find whether C is formed by an interleaving of A and 
 
 An interleaving of two strings S and T is a configuration such that it creates a new string Y from the concatenation substrings of A and B and |Y| = |A + B| = |C|
 
->For example:
+**For example:**
 
->A = "XYZ"
-
->B = "ABC"
+><p>A = "XYZ"<br>
+>B = "ABC"</p>
 
 so we can make multiple interleaving string Y like, XYZABC, XAYBCZ, AXBYZC, XYAZBC and many more so here your task is to check whether you can create a string Y which can be equal to C.
 
