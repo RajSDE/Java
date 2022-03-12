@@ -1,8 +1,5 @@
 ## LCS of three strings
-Given 3 strings A, B and C, the task is to find the longest common sub-sequence in all three given sequences.
-
-Explanation: "geeks"is the longest common
-subsequence with length 5.[🔗Goto](https://practice.geeksforgeeks.org/problems/lcs-of-three-strings0028/1/?page=4&difficulty[]=1&status[]=unsolved&category[]=Arrays&category[]=Strings&sortBy=accuracy#) 
+Given 3 strings A, B and C, the task is to find the longest common sub-sequence in all three given sequences [🔗Goto](https://practice.geeksforgeeks.org/problems/lcs-of-three-strings0028/1/?page=4&difficulty[]=1&status[]=unsolved&category[]=Arrays&category[]=Strings&sortBy=accuracy#) 
 
 **Example 1:**
 
@@ -10,6 +7,9 @@ subsequence with length 5.[🔗Goto](https://practice.geeksforgeeks.org/problems
 >A = "geeks", B = "geeksfor", <br>
 >C = "geeksforgeeks"<br>
 >Output: 5</p>
+
+Explanation: "geeks"is the longest common
+subsequence with length 5.
 
 <details>
 <summary>Full Code</summary>
