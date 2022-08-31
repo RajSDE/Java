@@ -1,3 +1,4 @@
+<p  align="right"><img src="https://visitor-badge.laobi.icu/badge?page_id=AyeRaj" alt="Visitor badge"/>
 
 # <p align="center"> Complete Java & DSA Syllabus🎓 </p>
   
