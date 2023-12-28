@@ -7,9 +7,9 @@
     - Servlet and JSP [Click here](https://www.youtube.com/playlist?list=PLsyeobzWxl7pUPF2xjjJiG4BKC9x_GY46)
     - Spring [Click here](https://www.youtube.com/playlist?list=PL0zysOflRCekeiERASkpi-crREVensZGS)
     - Start with Spring Boot [Click here](https://www.youtube.com/watch?v=aS0t9HTO5V4&t=468s&ab_channel=KunalKushwaha)
-    - Spring Boot [Click here] (https://www.youtube.com/playlist?list=PL0zysOflRCelmjxj-g4jLr3WKraSU_e8q)
-    - or Spring Boot [Click here] (https://www.youtube.com/playlist?list=PLsyeobzWxl7oA8QOlMtQsRT_I7Rx2hoX4)
-    - Microservice [Click here] (https://www.youtube.com/watch?v=Nb2PPuqtL2g&ab_channel=LearnCodeWithDurgesh)
+    - Spring Boot [Click here](https://www.youtube.com/playlist?list=PL0zysOflRCelmjxj-g4jLr3WKraSU_e8q)
+    - or Spring Boot [Click here](https://www.youtube.com/playlist?list=PLsyeobzWxl7oA8QOlMtQsRT_I7Rx2hoX4)
+    - Microservice [Click here](https://www.youtube.com/watch?v=Nb2PPuqtL2g&ab_channel=LearnCodeWithDurgesh)
     
 
 
