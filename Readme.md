@@ -3,7 +3,7 @@
 ## Resources for Full Stack Java 📌
 
 - ### References
-    - Java Language [Clicl here](https://www.youtube.com/playlist?list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5)
+    - Java Language [Click here](https://www.youtube.com/playlist?list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5)
     - Servlet and JSP [Click here](https://www.youtube.com/playlist?list=PLsyeobzWxl7pUPF2xjjJiG4BKC9x_GY46)
     - Spring [Click here](https://www.youtube.com/playlist?list=PL0zysOflRCekeiERASkpi-crREVensZGS)
     - Start with Spring Boot [Click here](https://www.youtube.com/watch?v=aS0t9HTO5V4&t=468s&ab_channel=KunalKushwaha)
