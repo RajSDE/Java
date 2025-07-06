@@ -1,4 +1,4 @@
-<p  align="right"><img src="https://visitor-badge.laobi.icu/badge?page_id=AyeRaj" alt="Visitor badge"/>
+</p><img src="https://komarev.com/ghpvc/?username=RajSDE&label=Visitors&color=0e75b6&style=flat" alt="RajSDE" />
 
 ## Resources for Full Stack Java 📌
 
