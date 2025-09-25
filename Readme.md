@@ -1,4 +1,6 @@
-# ✅ Java Mastery Checklist
+<p align="right"><img src="https://komarev.com/ghpvc/?username=RajSDE&label=Visitors&color=000000&style=flat" alt="RajSDE" />
+
+  # ✅ Java Mastery Checklist
 
 A comprehensive checklist to master Java backend development from fundamentals to advanced production engineering.
 
